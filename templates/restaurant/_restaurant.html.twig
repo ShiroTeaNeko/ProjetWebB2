@@ -1,0 +1,19 @@
+
+
+<div class="col-lg-25 col-md-25 col-sm-25">
+    <div class="slider clearfix os-animation" data-os-animation="fadeInDown
+" data-os-animation-delay="0.20s">
+        <div class="img clearfix">
+            {% if resto.filename %}
+            <img src="{{ vich_uploader_asset(resto, 'imageFile')}}" alt="" style="width: 165px; height: 120px;"/>
+            {% else %}
+                <img src="/images/restaurant/empty.png" alt="card-img-top" style="width: 165px; height: 120px;">
+            {% endif %}
+        </div>
+        <div class="title clearfix">
+            <h3>{{ resto.title }}<br/>
+                pack lorem</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+            <a href="{{ path('restaurant.show', {slug: resto.slug, id: resto.id}) }}">GRAB IT &#10152;</a> </div>
+    </div>
+</div>

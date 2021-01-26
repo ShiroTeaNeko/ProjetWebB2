@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45cb477f-8a3d-47dd-ac7e-5eea511539a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ProjetWeb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_16_01_2021_21_39.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/576f579c-795a-408d-823d-55f93db3c183.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/576f579c-795a-408d-823d-55f93db3c183/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/phpunit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/debug.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/knp_paginator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/liip_imagine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/mailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/notifier.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/prod/deprecations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/prod/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/sensio_framework_extra.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/validator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/validator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/vich_uploader.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/preload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/dev/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/dev/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/liip_imagine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20210117145546.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20210117150356.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20210117150829.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20210117151120.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20210118095312.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20210124130852.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20210125085928.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20210125091015.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20210125105052.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20210125114324.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/util.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/LobsterTwo-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/LobsterTwo-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/LobsterTwo-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/LobsterTwo-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro-SemiboldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/flexslider-icon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/flexslider-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/flexslider-icon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/flexslider-icon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/montserrat/Montserrat-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/montserrat/Montserrat-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/montserrat/Montserrat-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/montserrat/Montserrat-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/montserrat/Montserrat-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/montserrat/Montserrat-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/montserrat/Montserrat-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/montserrat/Montserrat-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/montserrat/Montserrat-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/montserrat/Montserrat-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/montserrat/Montserrat-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/montserrat/Montserrat-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/montserrat/Montserrat-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/montserrat/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/montserrat/Montserrat-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/montserrat/Montserrat-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/montserrat/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/poppins/Poppins-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/poppins/Poppins-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/poppins/Poppins-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/poppins/Poppins-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/poppins/Poppins-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/poppins/Poppins-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/poppins/Poppins-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/poppins/Poppins-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/poppins/Poppins-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/poppins/Poppins-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/poppins/Poppins-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/poppins/Poppins-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/poppins/Poppins-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/poppins/Poppins-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/poppins/Poppins-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/poppins/Poppins-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/poppins/Poppins-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/poppins/Poppins-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/KFC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/SUB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/TMPS000136.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/abc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/backgraound.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/backimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/barista.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/bgfood.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/bgjapanjpg - Copie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/bgjapanjpg - Copie_censored.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/bgjapanjpg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/bhel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/burgar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/burger-2707320_1920 (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/checken.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dominos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/donelt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/food-3581341_1920 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/four.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/four4 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/four4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/img-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/kljj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/mak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/one1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/one1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/oo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pancakes-2291908_1920 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/papjohns.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/passta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/past.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pizz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pizzhut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/plan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/restaurant/60103cd3e6813195510232.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/restaurant/60103d0a82c78607582450.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/restaurant/60103e2d9061a698624242.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/restaurant/60103fc6af0c0133773312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/restaurant/601040dab2252972149060.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/restaurant/60104174e96a2335809856.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/restaurant/empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/salad-791891_1920 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/sup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/three3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/thrww.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/thrww3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/triangle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/two2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/two22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-1.11.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/sidemenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/animate/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap/js/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/css-hamburgers/hamburgers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/css-hamburgers/hamburgers.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/jquery/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/select2/select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/select2/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/tilt/tilt.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminRestaurantController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/CommandController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/RepasController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/RestaurantController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataFixtures/RestaurantFixture.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Repas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Restaurant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/RestaurantSearch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/RestaurantSearchType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/RestaurantType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/RepasRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/RestaurantRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Security/EmailVerifier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/restaurant/_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/restaurant/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/restaurant/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/restaurant/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/command/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pages/home.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/confirmation_email.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/register.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/repas/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/restaurant/_restaurant.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/restaurant/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/restaurant/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/translations/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/friendsofphp/proxy-manager-lts" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/notifier" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/vendor/symfony/proxy-manager-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/jzonta/faker-restaurant" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/vendor/vich/uploader-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/templating" />
+      <path value="$PROJECT_DIR$/vendor/liip/imagine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/imagine/imagine" />
+      <path value="$PROJECT_DIR$/vendor/symfonycasts/verify-email-bundle" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1nAOZCYZddgL1NU10pVNV0g91wc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;mariadb" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.lang.actions.generation.PhpGenerateFieldAccessorHandlerBase$MyMemberChooser.fluent.setters.last.selected" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PhpstormProjects/projetWeb" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45cb477f-8a3d-47dd-ac7e-5eea511539a5" name="Default Changelist" comment="" />
+      <created>1610829481760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610829481760</updated>
+      <workItem from="1610829482811" duration="191000" />
+      <workItem from="1610829689728" duration="38151000" />
+      <workItem from="1611244914964" duration="1196000" />
+      <workItem from="1611490538738" duration="40953000" />
+      <workItem from="1611648953008" duration="19737000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="431" y="185" key="#SSH_Configurations" timestamp="1610894687491">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="431" y="185" key="#SSH_Configurations/0.0.2048.1112@0.0.2048.1112" timestamp="1610894687491" />
+    <state x="165" y="198" width="1381" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611516854048">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="165" y="198" width="1381" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1611516854048" />
+    <state x="754" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611577120970">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="754" y="358" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1611577120970" />
+    <state x="829" y="238" key="#com.intellij.ide.util.MemberChooser" timestamp="1611565121260">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="829" y="238" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1611565121260" />
+    <state x="754" y="311" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610965270416">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="754" y="311" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1610965270416" />
+    <state x="804" y="311" key="FileChooserDialogImpl" timestamp="1611683316058">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="804" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1611683316058" />
+    <state x="800" y="279" key="NewPhpClassDialog" timestamp="1610958094356">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="800" y="279" key="NewPhpClassDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1610958094356" />
+    <state x="858" y="479" key="NewPhpFileDialog" timestamp="1611494331083">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="858" y="479" key="NewPhpFileDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1611494331083" />
+    <state x="525" y="201" key="SettingsEditor" timestamp="1610829671924">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="525" y="201" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1610829671924" />
+    <state x="1017" y="0" width="1038" height="1119" key="dock-window-1" timestamp="1611660998849">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1017" y="0" width="1038" height="1119" key="dock-window-1/0.0.2048.1112@0.0.2048.1112" timestamp="1611660998849" />
+    <state x="741" y="327" key="refactoring.ChangeSignatureDialog" timestamp="1611526572317">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="741" y="327" key="refactoring.ChangeSignatureDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1611526572317" />
+    <state x="680" y="258" key="run.anything.popup" timestamp="1611682172299">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="680" y="258" key="run.anything.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1611682172299" />
+  </component>
+</project>

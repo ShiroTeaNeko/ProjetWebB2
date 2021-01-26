@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title repas.name %}
+
+{% block body %}
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4">
+            <h1>{{ repas.name }}</h1>
+            <h2>{{ repas.description }}</h2>
+            <h3>{{ repas.price }}</h3>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

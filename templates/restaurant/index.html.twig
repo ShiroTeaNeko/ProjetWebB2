@@ -1,0 +1,48 @@
+{%extends 'base.html.twig' %}
+
+{% block title "Tous nos restaurant" %}
+
+{% block body %}
+    <section class="backgraound">
+        <div class="container" >
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="back">
+                        <div class="line1 os-animation" data-os-animation="rotateInDownLeft" data-os-animation-delay="1s"> </div>
+                        <div class="line2 os-animation" data-os-animation="rotateInDownLeft" data-os-animation-delay="1s"> </div>
+                        <br>
+                        <br>
+                        <!-- <h2 class="os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.50s">Network of over 5000 Restaurants</h2> -->
+                        <h3 class="os-animation" data-os-animation="zoomIn" data-os-animation-delay="1s">Commandez en ligne </h3>
+                        <div class="line3 os-animation" data-os-animation="rotateInDownRight" data-os-animation-delay="1s"> </div>
+                        <div class="line4 os-animation" data-os-animation="rotateInDownRight" data-os-animation-delay="1s"> </div>
+                    </div>
+                </div>
+            </div>
+            {{ form_start(form) }}
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="textbox os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.5s">
+                    <h3>Rechercher par type de plat !</h3>
+                    {{ form_row(form.tag) }}
+                </div>
+            </div>
+            {{ form_end(form) }}
+        </div>
+    </section>
+
+
+
+    <div class="container" id="offer">
+        <div class="row">
+            {% for resto in restaurants %}
+                <div class="col-md-4">
+                    {% include 'restaurant/_restaurant.html.twig' %}
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="pagination">
+            {{ knp_pagination_render(restaurants) }}
+        </div>
+    </div>
+{% endblock %}

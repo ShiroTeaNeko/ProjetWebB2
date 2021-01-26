@@ -1,0 +1,69 @@
+{% extends 'base.html.twig' %}
+
+{% block title restaurant.title %}
+
+{% block body %}
+    <section class="backgraound2">
+        <div class="container" >
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="back">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <!-- <h2 class="os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.50s">Network of over 5000 Restaurants</h2> -->
+                        <h3 class="os-animation" data-os-animation="zoomIn" data-os-animation-delay="1s">{{ restaurant.title }}</h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+        {% if restaurant.filename %}
+            <img src="{{ vich_uploader_asset(restaurant, 'imageFile')}}" alt="card-img-top" style="width: 400px; height: 265px;">
+        {% else %}
+            <img src="/images/restaurant/empty.png" alt="card-img-top" style="width: 400px; height: 265px;">
+        {% endif %}
+            </div>
+            <div class="col-md-8">
+        <div class="row mt-5">
+
+                <h1>{{ restaurant.title }}</h1>
+                <h2>{{ restaurant.description }}</h2>
+                <h3>{{ restaurant.address }}, {{ restaurant.city }}, {{ restaurant.postalCode }}</h3>
+        </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Nos derniers plats</h2>
+        <div class="row flex">
+            {% for repas in allRepas %}
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <p>{{ repas.name }}</p>
+                                <p>{{ repas.description }}</p>
+                                <p>{{ repas.formattedPrice }} €</p>
+                                {% if is_granted('ROLE_USER') %}
+                                <a href="{{ path('command_add', {id: repas.id}) }}" class="btn btn-primary">add</a>
+                                {% endif %}
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
+
+
+
+
+

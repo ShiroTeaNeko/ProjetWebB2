@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <div class="container mt-4">
+        <h2>Editer le restaurant</h2>
+        {{ include ('admin/restaurant/_form.html.twig', {button: 'Editer'}) }}
+    </div>
+
+{% endblock %}
+
+

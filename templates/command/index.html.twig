@@ -1,0 +1,55 @@
+{%extends 'base.html.twig' %}
+
+{% block title "Bernard l'Herm'eat" %}
+
+{% block body %}
+
+{% if items | length > 0 %}
+    <div class="container" style="margin-bottom: 50vh">
+    <div class="row">
+    <div class="col-md-4">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Repas</th>
+                <th>Prix</th>
+                <th>Quantité</th>
+                <th>Total</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in items %}
+                <tr>
+                    <td>{{ item.product.name }}</td>
+                    <td>{{ item.product.price }}</td>
+                    <td>{{ item.quantity }}</td>
+                    <td>{{ item.product.price * item.quantity }}</td>
+                    <td>
+                        <a href="{{ path('command_remove', {'id': item.product.id}) }}" class="btn btn-danger btn-sm">
+                            <i class="fas fa-trash"></i>
+                        </a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="3" class="text-right">Total : </td>
+            <td>{{ total }}</td>
+            <td></td>
+        </tr>
+        </tfoot>
+    </table>
+    </div>
+    </div>
+    <a href="#" class="btn btn-primary" >Payer</a>
+    </div>
+{% else %}
+    <div class="container mb-auto">
+        <h1 style="margin-bottom: 75vh">Rien a se mettre sous la dent !</h1>
+    </div>
+
+{% endif %}
+
+{% endblock %}
